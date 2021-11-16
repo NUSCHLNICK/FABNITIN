@@ -41,6 +41,11 @@ def nRoot (a, n=2):
         print("division by zero")
         pass
     
+    # Absorbing negative numbers
+    elif a <= 0:
+        print(a, "is a negaive number")
+        pass
+    
     elif a == 0:
         return 0
     
