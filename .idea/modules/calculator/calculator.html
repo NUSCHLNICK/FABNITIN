@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+
+    <div class="calculator-grid">
+        <div class="display corner-tl corner-tr">
+            <div data-current-operand class="display__input">0</div>
+            <div class="display__equal-sign">=</div>
+            <div data-previous-operand class="display__output">0</div>
+        </div>
+
+        <button class="btn operators-two">ⁿ√x</button>
+        <button data-all-clear class="btn span-two">AC</button>
+        <button data-delete class="btn">DEL</button>
+        <button data-operation class="btn">÷</button>
+
+        <button class="btn operators-two">√</button>
+        <button data-number class="btn">1</button>
+        <button data-number class="btn">2</button>
+        <button data-number class="btn">3</button>
+        <button data-operation class="btn">*</button>
+
+        <button class="btn operators-two">xⁿ</button>
+        <button data-number class="btn">4</button>
+        <button data-number class="btn">5</button>
+        <button data-number class="btn">6</button>
+        <button data-operation class="btn">-</button>
+
+        <button class="btn operators-two">x²</button>
+        <button data-number class="btn">7</button>
+        <button data-number class="btn">8</button>
+        <button data-number class="btn">9</button>
+        <button data-operation class="btn">+</button>
+
+        
+
+
+        
+        <button data-number class="btn corner-bl">.</button>
+        <button data-number class="btn span-three">0</button>
+        <button data-equals class="btn corner-br">=</button>
+  
+
+
+    <!-- not mixing style and js
+    deshalb data attributes instead of classes
+    -->
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
